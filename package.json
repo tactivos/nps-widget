@@ -1,6 +1,6 @@
 {
-  "name": "nps-widget",
-  "version": "0.52.0",
+  "name": "@tactivos/nps-widget",
+  "version": "0.53.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/satismeter/nps-widget.git"
@@ -12,7 +12,7 @@
     "widget"
   ],
   "dependencies": {
-    "browserify-sass": "jsedlacek/browserify-sass#1.2.0",
+    "@tactivos/browserify-sass": "1.2.0",
     "color": "^0.11.1",
     "component-bind": "^1.0.0",
     "escape-html": "^1.0.1",
@@ -42,5 +42,18 @@
       "partialify"
     ]
   },
-  "main": "src/index.js"
+  "main": "src/index.js",
+  "bugs": {
+    "url": "https://github.com/satismeter/nps-widget/issues"
+  },
+  "homepage": "https://github.com/satismeter/nps-widget#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
